@@ -50,6 +50,12 @@ for i=m:-1:1
 end
 disp(x);
 
-if(2>0) {} else {}
+
+int c = 0;
+switch(c) {
+default:
+    BREAK;
+}
+
 
 
