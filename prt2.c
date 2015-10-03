@@ -9,10 +9,10 @@ if(m>n)
 else
     k=m;
 end
-for i=1:k  
-  
+for i=1:k
+
   if(a(i,i)==0)
-     
+
       for t=i+1:m
           if(a(t,i)~=0)
               temp=t;
@@ -23,9 +23,9 @@ for i=1:k
       b(i,:)=a(i,:);
       a(i,:)=a(temp,:);
       a(temp,:)=b(i,:);
-      
+
    end
-  
+
   end
        for j=1:m
           if((j>i)&&(a(j,i)~=0))
@@ -50,6 +50,6 @@ for i=m:-1:1
 end
 disp(x);
 
-
+if(2>0) {} else {}
 
 
